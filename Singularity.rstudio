@@ -16,6 +16,8 @@ From: NIH-HPC/singularity-examples:rstudio
 
     apt-get update
     apt-get install -y texlive
+    sudo tlmgr update --self
+    sudo tlmgr install framed
 
 #
 # Install additional R packages from CRAN
