@@ -22,7 +22,7 @@ From: NIH-HPC/singularity-examples:rstudio
 # Install additional R packages from CRAN
 #
     r <<__INSTALLCMDS__
-install.packages(c('knitr','readxl','ggpubr','stargazer','tables'),repos="$r_mirror")
+install.packages(c('git2r','knitr','readxl','ggpubr','stargazer','tables'),repos="$r_mirror")
 __INSTALLCMDS__
 
 #
