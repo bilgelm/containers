@@ -5,6 +5,7 @@ From: NIH-HPC/singularity-examples:rstudio
     Maintainer Murat Bilgel <murat.bilgel@nih.gov>
 
 %post
+    apt-get install -y libssh2-1-dev
 #
 # Choose your mirror from the list at
 # http://cran.r-project.org/mirrors.html
