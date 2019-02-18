@@ -5,7 +5,6 @@ From: NIH-HPC/singularity-examples:rstudio
     Maintainer Murat Bilgel <murat.bilgel@nih.gov>
 
 %post
-    apt-get install -y libssh2-1-dev
 #
 # Choose your mirror from the list at
 # http://cran.r-project.org/mirrors.html
@@ -16,6 +15,7 @@ From: NIH-HPC/singularity-examples:rstudio
     export DEBIAN_FRONTEND=noninteractive
 
     apt-get update
+    apt-get install -y libssh2-1-dev
     apt-get install -y texlive
 
 #
