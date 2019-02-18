@@ -15,7 +15,7 @@ From: NIH-HPC/singularity-examples:rstudio
     export DEBIAN_FRONTEND=noninteractive
 
     apt-get update
-    apt-get install -y libssh2-1-dev
+    apt-get install -y libssh2-1
     apt-get install -y texlive
 
 #
